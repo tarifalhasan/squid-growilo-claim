@@ -6,7 +6,7 @@ import eth2 from '../assets/images/eth.svg';
 import multiChain from '../assets/images/multichain.svg';
 import connectWaletBrn from '../assets/images/CollectWalletButton.svg';
 import Image from 'next/image';
-import Button from './Button';
+import { ConnectWalletBtn } from './Button';
 
 const ConnectWallect = () => {
   return (
@@ -50,7 +50,7 @@ const ConnectWallect = () => {
       {/* button collect wallet */}
 
       <div className="  flex justify-start">
-        <Button />
+        <ConnectWalletBtn />
       </div>
       {/* footer */}
       <div className=" ">
